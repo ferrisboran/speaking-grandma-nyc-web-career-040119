@@ -5,7 +5,7 @@ def speak_to_grandma(tellher)
 case tellher
 when tellher == tellher.upcase
   puts "NO, NOT SINCE 1938!"
-when "I LOVE YOU GRANDMA!"
+when tellher == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU TOO PUMPKIN!"
 else
   puts "HUH?! SPEAK UP, SONNY!"
