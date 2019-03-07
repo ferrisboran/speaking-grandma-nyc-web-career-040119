@@ -3,7 +3,7 @@ def speak_to_grandma(tellher)
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 case tellher
-when tellher.upcase
+when tellher == tellher.upcase
   puts "NO, NOT SINCE 1938!"
 when "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU TOO PUMPKIN!"
